@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleViewport.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://sepronunciayan.github.io/portafolio.github.io/#view3">
+        <section class="targeta-menu">
+            <H1 class="titulo-boton">Volver al<br> Portafolio</H1>
+        </section> </a>
+    <main id="contenViewportInicio" onclick="cerrarModalInicio(), missatge() ">
+        <div id="viewportInicio">
+            </div>
+        </div>
+    </main>
+    <main id="contenViewport" onclick="cerrarModal()">
+        <div id="viewport" onclick="mantenerModal()">
+            <div id="izquierda">
+                <div class="cartaV" id="cartaV">
+                    <div class="caraV" id="caraV"></div>
+                    <div class="cruzV" id="cruzV"></div>
+                </div>
+            </div>
+            <div id="derecha">
+                <p id="divTexto"></p>
+            </div>
+        </div>
+    </main>
+
+    <section id="contenCartas">
+        <!-- <button id="mensaje" onclick="missatge()">Mensaje</button> -->
+        <h1 id="texto"></h1>
+        <div class="carta tooltip" id="carta1" onclick="girarCarta(this), modal(), carta1()">
+            <span class="tooltiptext">ENERO</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="carta tooltip" id="carta2" onclick="girarCarta(this), modal(), carta2()">
+            <span class="tooltiptext">FEBRERO</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="carta tooltip" id="carta3" onclick="girarCarta(this), modal(), carta3()">
+            <span class="tooltiptext">MARZO</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="carta tooltip" id="carta4" onclick="girarCarta(this), modal(), carta4()">
+            <span class="tooltiptext">ABRIL</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="carta tooltip" id="carta5" onclick="girarCarta(this), modal(), carta5()">
+            <span class="tooltiptext">MAYO</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="carta tooltip" id="carta6" onclick="girarCarta(this), modal(), carta6()">
+            <span class="tooltiptext">JUNIO</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+
+    </section>
+    <section id="contenCartas2">
+        <div class="tarot tooltip" id="carta7" onclick="girarCarta(tarot), modal(), carta7()">
+            <span class="tooltiptext">JULIO</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="tarot tooltip" id="carta8" onclick="girarCarta(this), modal(), carta8()">
+            <span class="tooltiptext">AGOSTO</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="tarot tooltip" id="carta9" onclick="girarCarta(this), modal(), carta9()">
+            <span class="tooltiptext">SEPTIEMBRE</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="tarot tooltip" id="carta10" onclick="girarCarta(this), modal(), carta10()">
+            <span class="tooltiptext">OCTUBRE</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="tarot tooltip" id="carta11" onclick="girarCarta(this), modal(), carta11()">
+            <span class="tooltiptext">NOBIEMBRE</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+        <div class="tarot tooltip" id="carta12" onclick="girarCarta(this), modal(), carta12()">
+            <span class="tooltiptext">DICIEMBRE</span>
+            <div class="cara" id="cara"></div>
+            <div class="cruz" id="cruz"></div>
+        </div>
+
+    </section>
+
+
+    <!-- ----------------------------------------------------- -->
+    <script src="main.js"></script>
+    <script src="mainViewport.js"></script>
+</body>
+
+</html>
